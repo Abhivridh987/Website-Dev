@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+.html{
+    font-size:20px;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.body{
+    background-color:white;
+    height:200vh;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.header{
+    background-color: rgb(12,50,71);
+    height:45vh;
+}
+.subheader{
+    background-color:white;
+    border-radius:10px;
+    height:10vh;
+    width:92vw;
+    position:relative;
+    left:4vw;
+    top:3vh;
+
+}
+.subheader ul{
+    text-align:center;
+    position:relative;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width:50vw;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+    
+}
+.subheader ul li{
+    
+    display: inline-block;
+    padding:10px;
+    margin-inline:2vw;
+    font-size:20px;
+    letter-spacing: 1px;
+}
+
+
+.subheader ul li:hover{
+    
+    display: inline-block;
+    padding:10px;
+    margin-inline:2vw;
+    font-size:20px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    background-color: rgb(12,50,71);
+    color:white;
+}
+
+.subheader ul a{
+    text-decoration:none;
+    color:black;
+}
+
+.subheader ul a:visited{
+    text-decoration:none;
+    color:black;
+    
+}
+.subheader ul li a:hover{
+    text-decoration:none;
+    color:white;
+    border-radius: 10px;
+    background-color: rgb(12,50,71);
+
+    
+    
+}
+.subheader ul a:active{
+    text-decoration:none;
+    color:black;
+}
+.subheader ul li:nth-child(3){    /* to round the spots tab*/
+    
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgb(12,50,71);
+    color:white;
+    padding:10px;
+    margin-inline:2vw;
+    font-size:20px;
+    letter-spacing: 1px;
+    cursor:pointer;
+}
+.subheader ul:nth-child(2) {
+    text-align:left;
+    position:relative;
+    top:-1vh;  /* it was 1.5vh but due to padding 10px in .subheader ul li it is -1vh*/
+    left:10vw;
+    width:10vw;
+    font-weight:normal;
+}
+.header h1{
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    position:relative;
+    top:10vh;
+    left:0vw;
+}
+.header .line2{
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
+    color:white;
+    text-align:center;
+    
+    position:relative;
+    top:15vh;
+    left:34vw;
+}
+.header .line1{
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size:25px;
+    color:white;
+    text-align:center;
+    
+    position:relative;
+    top:15vh;
+    left:43vw;
+}
+.body{
+    
+    position:relative;
+    top:8vw;
+
+    
+}
+.place1{
+    
+    height:35vh;
+    padding:10px;
+    display: flow-root;
+
+    
+}
+.place1 img{
+    height:35vh;
+    float:left;
+    margin-right:10px;
+}
+.place1 h2{
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+
+    
+}
+.place1 p{
+    font-family: "PT Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.checked{
+    color:orange;
+}
+.place1 .rated{
+    font-family: "PT Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.place1:hover{
+    transform:scale(1.02);
+    transition-duration: 0.4s;
+    background-color: rgba(0, 0, 0, 0.168);
+    
+}
+
+
+
+
+
+.place2{
+    
+    height:37vh;
+    padding:10px;
+    display: flow-root;
+
+    
+}
+.place2 img{
+    height:37vh;
+    float:right;
+    margin-left:10px;
+}
+.place2 h2{
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+
+    
+}
+.place2 p{
+    font-family: "PT Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.checked{
+    color:orange;
+}
+.place2 .rated{
+    font-family: "PT Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.place2:hover{
+    transform:scale(1.02);
+    transition-duration: 0.4s;
+    background-color: rgba(0, 0, 0, 0.168);
+    
+}
